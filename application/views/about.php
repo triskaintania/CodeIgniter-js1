@@ -45,19 +45,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <div class="container">
   <div class="jumbotron">
-    <h1>Hello CodeIgniter + Bootstrap</h1>
+    <h1>About</h1>
     <p>
-      Consectetur unde eius ducimus esse obcaecati perferendis, ad
-      veritatis quo, nostrum! Dolor consequuntur assumenda quisquam eos
-      repellat Magni voluptates sed neque odio officiis? Laborum aliquid
-      obcaecati eaque sint error Nam.
+      
     </p>
-    <p>
-      <a class="btn btn-lg btn-primary"
-        href="http://getbootstrap.com/docs/3.3/" role="button">
-        Lihat Dokumentasi Bootstrap 3 &raquo;
-      </a>
-    </p>
+    
   </div>
 </div>
 
