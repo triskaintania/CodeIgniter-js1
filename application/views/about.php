@@ -28,9 +28,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="<?php echo base_url('') ?>">Beranda</a></li>
+        <li><a href="<?php echo base_url('') ?>">Beranda</a></li>
 		
-        <li><a href="<?php echo site_url('welcome/about') ?>">Tentang Saya</a></li>
+        <li class="active"><a href="<?php echo site_url('welcome/about') ?>">Tentang Saya</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -46,9 +46,29 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="container">
   <div class="jumbotron">
     <h1>About</h1>
-    <p>
-      
-    </p>
+    
+	<table class="table">
+		<tbody>
+			<tr>
+				<td>NIM  	:</td>
+				<td>1641720173</td>
+			</tr>
+			<tr>
+				<td>Nama :</td>
+				<td>Triska Intania Sulistiyowati</td>
+			</tr>
+			<tr>
+				<td>Gender :</td>
+				<td>Perempuan</td>
+			</tr>
+			<tr>
+				<td>Hobi :</td>
+				<td>Menggambar</td>
+			</tr>
+			
+		</tbody>
+	</table>
+		
     
   </div>
 </div>
